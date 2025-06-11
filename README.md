@@ -12,3 +12,6 @@
 
 ##  6. Model Attribute
 
+##  7. Spring MVC Fynamic Response Sending To FrontEnd
+
+##  8. Sprng MVC Mini Project
