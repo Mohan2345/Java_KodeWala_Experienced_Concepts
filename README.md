@@ -14,4 +14,6 @@
 
 ##  7. Spring MVC Dynamic Response Sending To FrontEnd
 
-##  8. Sprng MVC Mini Project
+##  8. Spring MVC Mini Project
+
+##  9. Spring Project + Redis
