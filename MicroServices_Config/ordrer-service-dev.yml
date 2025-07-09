@@ -1,9 +1,9 @@
 server:
-  port: 8084 # or 8083 for product-service
+  port: 8084
 
 spring:
   application:
-    name: ordrer-service # or product-service
+    name: order-service
 
   datasource:
     url: jdbc:mysql://localhost:3306/microservices
@@ -20,10 +20,9 @@ management:
   tracing:
     sampling:
       probability: 1.0
-    propagation: b3 # Explicitly set propagation format to B3
   zipkin:
     tracing:
-      endpoint: http://localhost:9411/api/v2/spans # Standard Zipkin endpoint
+      endpoint: http://localhost:9411/api/v2/spans
   endpoints:
     web:
       exposure:
