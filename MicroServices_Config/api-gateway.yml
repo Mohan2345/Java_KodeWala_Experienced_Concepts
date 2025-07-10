@@ -3,19 +3,17 @@ spring:
     name: api-gateway
   cloud:
     gateway:
-      server:
-        webflux:
-          discovery:
-            locator:
-              enabled: true
-              lower-case-service-id: true
-          routes:
-            - id: aadhar-service
-              uri: lb://aadhar-service
-              predicates:
-                - Path=/api/aadhar/**
-              filters:
-                - StripPrefix=2
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: aadhar-service
+          uri: lb://aadhar-service
+          predicates:
+            - Path=/api/aadhar/**
+          filters:
+            - StripPrefix=2
 
 eureka:
   client:
