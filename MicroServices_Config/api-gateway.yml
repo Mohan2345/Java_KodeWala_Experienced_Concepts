@@ -13,7 +13,7 @@ spring:
           predicates:
             - Path=/api/aadhar/**
           filters:
-            - StripPrefix=1
+            - StripPrefix=2
 
 eureka:
   client:
