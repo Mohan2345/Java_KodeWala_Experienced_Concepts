@@ -1,6 +1,7 @@
 package com.collection.List;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayList_IMP 
 {
@@ -25,5 +26,6 @@ public class ArrayList_IMP
 		
 		System.out.println("ArrayList after Deleting: ");
 		System.out.println("arrayList --> " + arrayList);
+		
  	}
 }

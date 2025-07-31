@@ -17,9 +17,7 @@ public class Handle_Custom_Exception {
 			//e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
-
 	}
-
 	public boolean doPayment(String pin) throws InvalidPinException {
 		boolean status = validatePin(pin);
 		if (!status) {
@@ -27,7 +25,6 @@ public class Handle_Custom_Exception {
 		}
 		return true;
 	}
-
 	public boolean validatePin(String pin) {
 		if (pin.equals("9090")) {
 			return true;

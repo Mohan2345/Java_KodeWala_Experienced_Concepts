@@ -14,8 +14,9 @@ public class Object_Count
 	
 	public static void main(String[] args)
 	{
+		// Here First Coinstructor Called then IIB excuted
 		 Object_Count oc = new Object_Count();
 		 oc = new Object_Count();
-		System.out.println("Object created: " + counter);
+ 		System.out.println("Object created: " + counter);
 	}
 }

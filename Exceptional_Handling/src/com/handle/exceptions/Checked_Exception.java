@@ -14,14 +14,11 @@ public class Checked_Exception
 			int b = 0;
 			//int divRes = a/b; // Un-Checked Exception
 		} catch (ClassNotFoundException e) {
-			// TODO: handle exception
-			e.printStackTrace();
+ 			e.printStackTrace();
 		} catch (ArithmeticException e) {
-			// TODO: handle exception
-			e.printStackTrace();
+ 			e.printStackTrace();
 		} catch (Exception e) {
-			// TODO: handle exception
-			e.printStackTrace();
+ 			e.printStackTrace();
 		}
 	}
 }
