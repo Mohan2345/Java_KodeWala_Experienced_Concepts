@@ -33,3 +33,7 @@
 ##  17. Spring Exceptional Handling.
 
 ##  18. RestFULL API Project
+
+##  19. Logging Project
+
+##  20. Maven Command + Jar Running
